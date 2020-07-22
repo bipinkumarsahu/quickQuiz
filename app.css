@@ -1,6 +1,5 @@
-:root {
-  background-color: #2db48e;
-    
+.body {
+  background-color: #CFF5EA;
 }
 
 *{
@@ -8,7 +7,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-   
+    
     color: #2D9298;
 
 }
@@ -45,7 +44,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
+    max-width: 90rem;
     margin: 0 auto;
   }
   
@@ -73,4 +72,8 @@ h1 {
   
   .hidden {
     display: none;
+  }
+
+  .btn-block {
+    max-width: 320px;
   }
