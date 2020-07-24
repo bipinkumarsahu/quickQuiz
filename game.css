@@ -1,3 +1,11 @@
+:root{
+  background-color: #CFF5EA ;
+}
+h1{
+  color: teal;
+}
+
+
 .choice-container {
     display: flex;
     margin-bottom: 0.5rem;
@@ -33,5 +41,15 @@
   
   .incorrect {
     background-color: #dc3545;
-    color: white;
+    text-color: white;
+  }
+
+  #hud {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hud-prefix{
+    text-align: center;
+    font-size: 2rem;
   }
