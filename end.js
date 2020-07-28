@@ -5,7 +5,7 @@ const mostRecentScore = localStorage.getItem('mostRecentScore');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || []; 
 //To either load the highscore from storage of available, or if using for the first time, initializes an empty array
 const MAX_HIGH_SCORES = 5;
-finalScore.innerText = mostRecentScore;
+finalScore.innerText = "Your Final Score:" + mostRecentScore;
 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
