@@ -54,16 +54,21 @@ h1{
     font-size: 2rem;
   }
 
-  #progressBar {
-    width: 20rem;
-    height: 4rem;
-    border: 0.3rem solid teal;
-    margin-top: 1.5rem;
+ /* LOADER */
+#loader {
+  border: 1.6rem solid white;
+  border-radius: 50%;
+  border-top: 1.6rem solid teal;
+  width: 12rem;
+  height: 12rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  #progressBarFull {
-    height: 3.4rem;
-    background-color:teal;
-    width: 0%;
-    
+  100% {
+    transform: rotate(360deg);
   }
+}
